@@ -1,0 +1,74 @@
+html,
+body {
+	font-family: Arial, sans-serif ;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	height: 100%;
+	width: 100%;
+	display: flex;
+}
+
+#filter-text {
+	width: 60%;
+	font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  border-radius: 10px;
+  margin-left: 10%;
+}
+
+#filter {
+	font-size: 18px;
+	background-color: #ffa500;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 20%;
+  padding: 10px;
+}
+
+li {
+	cursor: pointer;
+	border: none;
+	background-color: #ffa500;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 10px;
+	font-size: 18px;
+	width: 80%;
+}
+
+h1 {
+	color: #525454;
+	font-size: 22px;
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+
+#map {
+	order: 2;
+	flex-grow: 7;
+	height: 750px;
+}
+
+.options-box {
+	order: 1;
+	flex-grow: 1;
+	background: #fff;
+	
+}
+
+@media only screen and (max-width : 700px)  {
+
+	.container {
+		flex-direction: column;
+		height:1000px;
+	}
+}
