@@ -4,9 +4,7 @@ I developed a single page application featuring a map of your neighborhood or a 
 
 # Install
 
-you need to install :-
-
-*    Install any web Browser you love like (googlechrom or firefox
+* Install any web Browser you love like (googlechrom or firefox)
  
 # Run The Application 
 
