@@ -11,7 +11,7 @@ I developed a single page application featuring a map of your neighborhood or a 
 * download the file index.html
 * double click on it to open the project
 
-# want to filter locations :-
+# filter the locations :-
 
 * type the name of location in the search bar on the top of page
 * the list menu will filter automatic 
